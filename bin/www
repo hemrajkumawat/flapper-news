@@ -1,4 +1,14 @@
 #!/usr/bin/env node
+<<<<<<< HEAD
+var debug = require('debug')('MeanStackExampleApp');
+var app = require('../app');
+
+app.set('port', process.env.PORT || 3000);
+
+var server = app.listen(app.get('port'), function() {
+ console.log('Express server listening on port ' + server.address().port);
+});
+=======
 
 /**
  * Module dependencies.
@@ -88,3 +98,4 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 }
+>>>>>>> c2b8175a9f5d027209e2897183af1c023088580c

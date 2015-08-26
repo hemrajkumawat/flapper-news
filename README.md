@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+Flapper News Mean Stack Tutorial
+=================== 
+
+=======
 # flapper-news
 sample code MEANJS
 This project focuses on MEAN.
@@ -5,6 +10,7 @@ M = Mongoose
 E = emberjs
 A = anguarjs
 N = nodejs
+>>>>>>> c2b8175a9f5d027209e2897183af1c023088580c
 ## To Install
 npm install
 
@@ -32,3 +38,13 @@ Requires nodejs, and mongodb installed and running.
 * in-line templates in public_html/index.html  =  posts.html, home.html
 
 > node app
+<<<<<<< HEAD
+
+* Persistent
+-- saves to: mongodb://localhost/news
+
+*Updates*:
+Branch 2: downvotes, regex for URL input
+
+=======
+>>>>>>> c2b8175a9f5d027209e2897183af1c023088580c
