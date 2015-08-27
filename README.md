@@ -36,12 +36,8 @@ Requires nodejs, and mongodb installed and running.
 * in-line templates in public_html/index.html  =  posts.html, home.html
 
 > node app
-<<<<<<< HEAD
 
 * Persistent
 -- saves to: mongodb://localhost/news
 
-*Updates*:
-Branch 2: downvotes, regex for URL input
 
-=======
